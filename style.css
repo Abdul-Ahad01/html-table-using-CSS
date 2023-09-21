@@ -1,0 +1,34 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 3px solid black;
+    text-align: center;
+    padding: 5px;
+    
+}
+th{
+    background-color: green;
+    color: black;
+    height: 25px;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+    
+}
+
+tr:nth-child(odd){
+    background-color: teal;
+    
+}
+tr:hover{
+    background-color: tomato;
+    color:cyan;
+}
